@@ -1,0 +1,120 @@
+/* Reset some basic elements */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.loginWindow {
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.loginHeader {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.loginContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputLabel {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #555555;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #66afe9;
+  outline: none;
+}
+
+.captchaSection {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.captchaSection img {
+  height: 50px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.captchaSection button {
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.forgotPassword {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.forgotPassword .link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signinButton {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4285F4;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signinButton:hover {
+  background-color: #357ae8;
+}
+
+.acknowledgment {
+  margin-top: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.signupPrompt {
+  margin-top: 30px;
+  text-align: center;
+  color: #555555;
+}
+
+.signupLabel {
+  display: block;
+  margin-top: 10px;
+  color: #4285F4;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signupLabel:hover {
+  color: #357ae8;
+}
